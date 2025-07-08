@@ -1,0 +1,11 @@
+# Using pinned versions known to be stable together
+streamlit==1.30.0
+ultralytics==8.0.228
+numpy<1.24
+opencv-python==4.8.0.76
+pandas
+# Explicitly add all dependencies to prevent auto-updates
+lapx
+onnx==1.15.0
+onnxruntime==1.16.3
+Pillow

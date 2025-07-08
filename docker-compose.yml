@@ -1,0 +1,9 @@
+# Simplified Monolithic Architecture for Aegis AI Demo
+services:
+  aegis-app:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./input:/app/input
+      - ./models:/app/models
